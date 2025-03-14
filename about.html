@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Company Name</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar a {
+            color: white;
+        }
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+        .about-section {
+            padding: 50px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container about-section">
+    <h2>About Company Name</h2>
+    <p>We are a leading company that provides innovative solutions to businesses worldwide. Our mission is to help businesses grow and succeed with cutting-edge technology and a customer-first approach.</p>
+    
+    <h3>Our Vision</h3>
+    <p>Our vision is to be the most trusted partner for businesses, delivering transformative solutions and ensuring long-term success.</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Company Name. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
